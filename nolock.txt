@@ -1,0 +1,101 @@
+
+  ++++++++++++++++++++++++++++++
+  +   Artur Wojcik             +
+  +   NetID: awojci5           +
+  +   CS 361 UIC Fall 2017     +
+  +   11/25/2017               +
+  ++++++++++++++++++++++++++++++
+
+
+*** Running program with 10 workers and working on 11 buffers with option [-unlock]
+
+  -Worker number 1 has sleep time 0.113388
+  -Worker number 2 has sleep time 0.231986
+  -Worker number 3 has sleep time 0.376254
+  -Worker number 4 has sleep time 0.268995
+  -Worker number 5 has sleep time 0.182506
+  -Worker number 6 has sleep time 0.200051
+  -Worker number 7 has sleep time 0.354623
+  -Worker number 8 has sleep time 0.445449
+  -Worker number 9 has sleep time 0.220662
+  -Worker number 10 has sleep time 0.109970
+
+  !! Child number 3 reported change from 0 to 1 in buffer 3 Bad bits =  0
+  !! Child number 8 reported change from 0 to 512 in buffer 8 Bad bits =  9
+  !! Child number 4 reported change from 0 to 512 in buffer 8 Bad bits =  9
+  !! Child number 1 reported change from 0 to 16 in buffer 4 Bad bits =  4
+  !! Child number 7 reported change from 0 to 1 in buffer 3 Bad bits =  0
+  !! Child number 3 reported change from 0 to 2 in buffer 6 Bad bits =  1
+  !! Child number 10 reported change from 512 to 2 in buffer 6 Bad bits =  1 9
+  !! Child number 9 reported change from 256 to 1 in buffer 5 Bad bits =  0 8
+  !! Child number 8 reported change from 0 to 1 in buffer 5 Bad bits =  0
+  !! Child number 9 reported change from 1 to 17 in buffer 3 Bad bits =  4
+  !! Child number 1 reported change from 512 to 544 in buffer 8 Bad bits =  5
+  !! Child number 7 reported change from 64 to 66 in buffer 10 Bad bits =  1
+  !! Child number 10 reported change from 512 to 128 in buffer 2 Bad bits =  7 9
+  !! Child number 3 reported change from 4 to 5 in buffer 9 Bad bits =  0
+  !! Child number 10 reported change from 512 to 1 in buffer 0 Bad bits =  0 9
+  !! Child number 8 reported change from 128 to 144 in buffer 2 Bad bits =  4
+  !! Child number 4 reported change from 12 to 37 in buffer 9 Bad bits =  0 3 5
+  !! Child number 6 reported change from 37 to 549 in buffer 9 Bad bits =  9
+  !! Child number 4 reported change from 144 to 208 in buffer 2 Bad bits =  6
+  !! Child number 1 reported change from 145 to 208 in buffer 2 Bad bits =  0 6
+  !! Child number 10 reported change from 2 to 10 in buffer 6 Bad bits =  3
+  !! Child number 5 reported change from 2 to 10 in buffer 6 Bad bits =  3
+  !! Child number 3 reported change from 532 to 533 in buffer 4 Bad bits =  0
+  !! Child number 6 reported change from 1 to 513 in buffer 5 Bad bits =  9
+  !! Child number 3 reported change from 545 to 547 in buffer 7 Bad bits =  1
+  !! Child number 8 reported change from 161 to 547 in buffer 7 Bad bits =  1 7 9
+  !! Child number 5 reported change from 114 to 115 in buffer 10 Bad bits =  0
+  !! Child number 9 reported change from 305 to 51 in buffer 0 Bad bits =  1 8
+  !! Child number 10 reported change from 305 to 51 in buffer 0 Bad bits =  1 8
+  !! Child number 3 reported change from 102 to 627 in buffer 10 Bad bits =  0 2 4 9
+  !! Child number 6 reported change from 824 to 825 in buffer 1 Bad bits =  0
+  !! Child number 7 reported change from 792 to 825 in buffer 1 Bad bits =  0 5
+  !! Child number 6 reported change from 547 to 803 in buffer 7 Bad bits =  8
+  !! Child number 7 reported change from 865 to 817 in buffer 8 Bad bits =  4 6
+  !! Child number 9 reported change from 283 to 59 in buffer 3 Bad bits =  5 8
+  !! Child number 4 reported change from 825 to 819 in buffer 8 Bad bits =  1 3
+  !! Child number 2 reported change from 627 to 883 in buffer 10 Bad bits =  8
+  !! Child number 7 reported change from 123 to 63 in buffer 0 Bad bits =  2 6
+  !! Child number 8 reported change from 139 to 27 in buffer 6 Bad bits =  4 7
+  !! Child number 6 reported change from 621 to 605 in buffer 5 Bad bits =  4 5
+  !! Child number 3 reported change from 59 to 123 in buffer 3 Bad bits =  6
+  !! Child number 4 reported change from 248 to 496 in buffer 2 Bad bits =  3 8
+  !! Child number 4 reported change from 315 to 287 in buffer 6 Bad bits =  2 5
+  !! Child number 3 reported change from 567 to 823 in buffer 9 Bad bits =  8
+  !! Child number 7 reported change from 895 to 959 in buffer 4 Bad bits =  6 7
+
+ ^ Error in buffer 0. Bad bits =  6 8 9
+ ^ Error in buffer 1. Bad bits =  0 5
+ ^ Error in buffer 2. Bad bits =  0 3 9
+ ^ Error in buffer 3. Bad bits =  8 9
+ ^ Error in buffer 4. Bad bits =  6
+ ^ Error in buffer 5. Bad bits =  5 8
+ ^ Error in buffer 6. Bad bits =  5 7 9
+ ^ Error in buffer 7. Bad bits =  7
+ ^ Error in buffer 8. Bad bits =  3 6
+ ^ Error in buffer 9. Bad bits =  3
+ ^ Error in buffer 10. Bad bits =  2
+
+ ** Value that should be in each buffer is: --> 1023
+
+ ** Actual value in each buffer:
+
+ ** Value in buffer number [0] is ->>  191
+ ** Value in buffer number [1] is ->>  990
+ ** Value in buffer number [2] is ->>  502
+ ** Value in buffer number [3] is ->>  255
+ ** Value in buffer number [4] is ->>  959
+ ** Value in buffer number [5] is ->>  735
+ ** Value in buffer number [6] is ->>  351
+ ** Value in buffer number [7] is ->>  895
+ ** Value in buffer number [8] is ->>  951
+ ** Value in buffer number [9] is ->>  1015
+ ** Value in buffer number [10] is ->>  1019
+
+  -= 69 Read errors and 21 write errors encountered. =-
+
+
+  -= Exiting Program =-
+

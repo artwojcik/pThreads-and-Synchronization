@@ -1,0 +1,45 @@
+
+  ++++++++++++++++++++++++++++++
+  +   Artur Wojcik             +
+  +   NetID: awojci5           +
+  +   CS 361 UIC Fall 2017     +
+  +   11/25/2017               +
+  ++++++++++++++++++++++++++++++
+
+
+*** Running program with 10 workers and working on 11 buffers with option [-lock]
+
+  -Worker number 1 has sleep time 0.113388
+  -Worker number 2 has sleep time 0.231986
+  -Worker number 3 has sleep time 0.376254
+  -Worker number 4 has sleep time 0.268995
+  -Worker number 5 has sleep time 0.182506
+  -Worker number 6 has sleep time 0.200051
+  -Worker number 7 has sleep time 0.354623
+  -Worker number 8 has sleep time 0.445449
+  -Worker number 9 has sleep time 0.220662
+  -Worker number 10 has sleep time 0.109970
+
+
+
+ ** Value that should be in each buffer is: --> 1023
+
+ ** Actual value in each buffer:
+
+ ** Value in buffer number [0] is ->>  1023
+ ** Value in buffer number [1] is ->>  1023
+ ** Value in buffer number [2] is ->>  1023
+ ** Value in buffer number [3] is ->>  1023
+ ** Value in buffer number [4] is ->>  1023
+ ** Value in buffer number [5] is ->>  1023
+ ** Value in buffer number [6] is ->>  1023
+ ** Value in buffer number [7] is ->>  1023
+ ** Value in buffer number [8] is ->>  1023
+ ** Value in buffer number [9] is ->>  1023
+ ** Value in buffer number [10] is ->>  1023
+
+  -= 0 Read errors and 0 write errors encountered. =-
+
+
+  -= Exiting Program =-
+
